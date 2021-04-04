@@ -16,6 +16,8 @@ html, body {
 	width: 1200px;
 	margin: 50px auto;
 	color: #333;
+	position: relative;
+	padding: 0 5px;
 }
 
 a:hover {
@@ -147,4 +149,30 @@ footer p {
 
 .footer__links a:hover {
 	text-decoration: underline;
+}
+
+.to_other_lang {
+	border: 1px solid #558;
+	border-radius: 50%;
+	display: inline-block;
+	padding: 5px 10px;
+	position: absolute;
+	right: 2px;
+}
+
+.to_other_lang a {
+	font-weight: bold;
+	color: royalblue;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+.to_other_lang:hover {
+	background-color: royalblue;
+	transition: 0.2s;
+}
+
+.to_other_lang:hover a.other_lang {
+	color: #fff;
+	transition: 0.2s;
 }
